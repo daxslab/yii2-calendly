@@ -1,0 +1,21 @@
+{
+    "name": "daxslab/yii2-calendly",
+    "description": "Embeds the Calendly widgets into Yii2 applications",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "calendar", "events", "schedule", "Calendly"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel A. López López",
+            "email": "glpz@daxslab.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "daxslab\\calendly\\": ""
+        }
+    }
+}
