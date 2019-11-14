@@ -36,7 +36,7 @@ Usage
 ```php
 <?= \daxslab\calendly\Calendly::widget([
     'calendlyId' => Yii::$app->params['calendlyId'],
-    'mode' => \frontend\widgets\Calendly::MODE_INLINE,
+    'mode' => \daxslab\calendly\Calendly::MODE_INLINE,
 ]) ?>
 ```
     
