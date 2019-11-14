@@ -34,7 +34,7 @@ Usage
 
 
 ```php
-<?= \frontend\widgets\Calendly::widget([
+<?= \daxslab\calendly\Calendly::widget([
     'calendlyId' => Yii::$app->params['calendlyId'],
     'mode' => \frontend\widgets\Calendly::MODE_INLINE,
 ]) ?>
